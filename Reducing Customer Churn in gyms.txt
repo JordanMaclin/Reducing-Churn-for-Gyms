@@ -1,0 +1,55 @@
+﻿Reducing Customer Churn in Gyms
+Problem Statement
+Subscription-based fitness apps often experience high customer churn, especially after the initial onboarding phase. This leads to significant losses in revenue and customer lifetime value (CLTV). Identifying users at risk of canceling early on, using behavioral and usage patterns, can enable the business to implement proactive retention strategies and improve long-term engagement.
+Relevance and Scope
+This problem is well-suited for a data science approach. By using available app data, I can develop models that classify and predict churn-prone users and recommend personalized interventions. The project falls within the scope of this course by focusing on real-world data, applying the Data Science Methodology (DSM), and building a model that provides actionable business value.
+Data Sources
+The datasets required for this project include:
+* Internal fitness app data (synthetic or public proxies):
+
+   * App usage: frequency, duration, workout types
+
+   * Subscription details: plan type, start/end dates, cancellations
+
+   * Behavioral metrics: streaks, achievement milestones, notification interactions
+
+      * Customer support logs (if available):
+
+         * Complaints or feedback related to app performance or dissatisfaction
+
+            * Public datasets:
+
+               * Kaggle’s Fitness App Churn dataset and similar sources to supplement or simulate internal data
+
+These datasets support the project by providing both the input features (user behavior) and target labels (churned or retained users).
+Approach (DSM - Problem Identification Step)
+                  * Business Understanding: Churn reduction increases profitability and app stickiness.
+
+                  * Analytic Approach: Predictive modeling to estimate churn risk, clustering to group behavior types.
+
+                  * Data Requirements: App engagement logs, subscription and churn labels, optional support interactions.
+
+                  * Data Collection: Use public datasets to simulate real app data, explore additional open data as needed.
+
+                  * Data Understanding: Perform EDA to understand churn patterns and feature relevance.
+
+Next Steps
+                     1. Data cleaning and preprocessing
+
+                     2. Feature engineering (e.g., average logins per week, days since last use)
+
+                     3. Modeling with logistic regression, decision trees, or ensemble methods
+
+                     4. Evaluation using accuracy, precision, recall, and ROC-AUC
+
+                     5. Business recommendations: intervention strategies based on model insights
+
+Expected Impact
+This project will help fitness app companies:
+                        * Predict and reduce churn
+
+                        * Improve user retention strategies
+
+                        * Increase overall user satisfaction
+
+                        * Enhance product design based on behavior insights
